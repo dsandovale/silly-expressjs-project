@@ -1,0 +1,21 @@
+{
+  "name": "silly-expressjs-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm install",
+    "compile": "tsc api/index.ts",
+    "start": "node api/index.js"
+  },
+  "keywords": [],
+  "author": "Darío Sandoval Evert",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0"
+  }
+}
